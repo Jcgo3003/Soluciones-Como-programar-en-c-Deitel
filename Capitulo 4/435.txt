@@ -1,0 +1,35 @@
+Describa el proceso que utilizaría para remplazar un do...while con un while equivalente.
+No es realmente complicado remplazar un do... while con un while
+Siendo que do... while tiene la caracteristica de que por lo menos se realizara un vez
+solante hay que declarar por ejemplo variables que la sentencia de while se cumplan la primera vez
+un vez activado el while se pedira que estas variables se modifiquen y si estas variables entrar o no
+entrar en los parametros de la sentencia que se siga ejecutando o no el while a conveniencia del programador
+ejem.
+
+int a  =  5
+
+while( a = 5){
+    printf("Escribe un numero que no sea 5 ");
+    scantf("%d", &a);
+}
+
+El while de arriba se ejecutara mientras el usuario siga escribiendo 5, si escribe un numero diferente
+el ciclo(while) se rompera y se puede parsar a otra seccion del programa
+
+do while hace exactamente lo mismo, primero se deben declarar y asignarles un valor si o si a las variables a utilizar
+una vez que esto ocurre el do while procede a ejecurtarse por primera vez, do while es otra manera diferente de utilizar while
+por lo que no representaria una gran trancision entre uno y otro salvo casos muy especificos(que probablemente no me he encontrado)
+
+¿Qué problema ocu- rre cuando intenta remplazar un ciclo while con un ciclo do...while?
+A los mas se debe cambiar la sentencia del while y quisa algunas variables y sus valores 
+para que entren en los paramentros que se requieren para que el do while funcione de la misma manera que lo hacia el while
+
+Suponga que le dicen que tiene que elimi- nar un ciclo while y remplazarlo con un do...while.
+¿Qué instrucciones de control adicionales necesitaría utili- zar, y cómo las utilizaría para garanti
+zar que el resultado del programa sería idéntico al original?
+
+Dependiendo el caso podria llegar a requerise un cambio en las varibles y sus valores, tal vez incluso hacer
+uso de 'if's' ademas de tener que cambiar la sentencia en el do ... while para que pueda cumplir lo que se pide
+
+De nuevo la unica diferencia entre un do ... while y un while regular es que do ... while esta pensado para ejecutarse al menos 
+una vez mientras que while es un ciclo que se puede ejecutar a seguno lo desee el programador
